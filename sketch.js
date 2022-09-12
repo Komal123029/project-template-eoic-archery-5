@@ -59,7 +59,7 @@ function setup() {
 }
 
 function draw() {
-  background(189);
+  background(backgroundImg);
 
   //write a correct line of code to display the background image
   

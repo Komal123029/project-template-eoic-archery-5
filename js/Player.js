@@ -20,8 +20,13 @@ class Player {
   life() {
     push();
    //write a correct code to show lives as three green rectangles in a strainght line.
-   
-    pop();
+   fill(this.life1);
+   rect(180, 50, 70, 30);
+   fill(this.life2);
+   rect(250, 50, 70, 30);
+   fill(this.life3);
+   rect(320, 50, 70, 30);
+       pop();
   }
 
  
